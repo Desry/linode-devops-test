@@ -1,0 +1,65 @@
+
+[
+  {
+    "domainClass": "ProcessingTemplate",
+    "id": "[DES]devops_test_1",
+    "simpleId": "devops_test_1",
+    "processingType": "TASK",
+    "node": "LINUX_TEST",
+    "preloadCounter": 0,
+    "processingCommand": {
+      "script": "echo 'hello'\nwhoami"
+    },
+    "keepResourcesOnFailure": false,
+    "onHold": false,
+    "highRisk": false,
+    "ignoreProcessingStateRegistry": false,
+    "weight": "1",
+    "taskType": "SH",
+    "statisticPeriod": "MONTH",
+    "priority": "0",
+    "passBy": false,
+    "lazyLoad": false,
+    "customFieldValues": {
+    },
+    "serverNodeType": "LINUX",
+    "verboseMode": false,
+    "eagerScriptExecution": false,
+    "passResourceDependenciesToChildren": false,
+    "domain": "DES",
+    "autoArchive": false,
+    "useScripts": false,
+    "sequentialProcessing": false,
+    "owner": "api_user",
+    "turnOffDurationEstimation": false,
+    "statisticMethod": "AVERAGE",
+    "disableManualExecution": false,
+    "passActionsToChildren": false
+  },
+  {
+    "domainClass": "ServerNode",
+    "id": "[DES]LINUX_TEST",
+    "simpleId": "LINUX_TEST",
+    "passBy": false,
+    "onHold": false,
+    "holdOnAgentIpChanged": false,
+    "customFieldValues": {
+    },
+    "totalWeightCapacity": 250,
+    "configuration": {
+      "AgentHeartbeat": 30000,
+      "sysoutMaxAgeInDays": 180,
+      "ftpPoolSize": 10,
+      "pythonCmd": "/usr/bin/python3",
+      "ftpInterval": 5000,
+      "firstDayOfWeek": 6,
+      "persistenceRetryDelay": 5000,
+      "NoOfPrcss": 200,
+      "connectionTimeout": 60000
+    },
+    "serverNodeType": "LINUX",
+    "baselineDeviationMultiplier": 1.0,
+    "loadBalancer": false,
+    "domain": "DES"
+  }
+]
