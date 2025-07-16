@@ -8,7 +8,7 @@
     "node": "LINUX_TEST",
     "preloadCounter": 0,
     "processingCommand": {
-      "script": "echo 'hello'\nwhoami"
+      "script": "echo 'bye'\nwhoami"
     },
     "keepResourcesOnFailure": false,
     "onHold": false,
