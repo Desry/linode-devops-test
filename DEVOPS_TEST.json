@@ -8,7 +8,7 @@
     "node": "LINUX_TEST",
     "preloadCounter": 0,
     "processingCommand": {
-      "script": "echo 'bye'\nwhoami"
+      "script": "echo 'yawaka'\nwhoami"
     },
     "keepResourcesOnFailure": false,
     "onHold": false,
